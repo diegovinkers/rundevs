@@ -1,8 +1,6 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { Button } from "@/components/ui/button"
-import Link from "next/link"
 
 export default function Hero() {
   return (
@@ -30,9 +28,6 @@ export default function Hero() {
         animate={{ opacity: 1 }}
         transition={{ delay: 0.5 }}
       >
-        <Button asChild size="lg">
-          <Link href="/contact">Comencemos</Link>
-        </Button>
       </motion.div>
     </section>
   )
