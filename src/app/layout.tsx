@@ -1,34 +1,26 @@
 import type { Metadata } from "next";
-import "../globals.css";
-import { Navbar } from "@/components/Navbar";
-import { Footer } from "@/components/Footer";
+import "../globals.css"
+
+import { Header } from "@/components/layout/Header";
+import { Footer } from "@/components/layout/Footer";
 
 export const metadata: Metadata = {
-  title: "RunDevs | Desarrollo Web y Software",
-  description: "Agencia de desarrollo web y software a medida con foco en escalabilidad y diseño.",
-  openGraph: {
-    title: "RunDevs | Desarrollo Web y Software",
-    description: "Creamos software y sitios web de alto rendimiento.",
-    url: "https://rundevs.com",
-    siteName: "RunDevs",
-    images: [
-      {
-        url: "https://rundevs.com/og-image.png",
-        width: 1200,
-        height: 630,
-      },
-    ],
-    locale: "es_ES",
-    type: "website",
-  },
+  title: "Rundevs - Software Solutions",
+  description: "Empresa de desarrollo de software profesional con foco en calidad, SEO y performance.",
 };
 
-export default function MarketingLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
-    <div className="flex flex-col min-h-screen">
-      <Navbar />
-      <main className="flex-1">{children}</main>
-      <Footer />
-    </div>
+    <html lang="es">
+      <body className="min-h-screen flex flex-col bg-gray-50 text-gray-900">
+        <Header />
+        <main className="flex-1 container mx-auto px-4 py-8">{children}</main>
+        <Footer />
+      </body>
+    </html>
   );
 }
