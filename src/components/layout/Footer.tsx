@@ -1,10 +1,7 @@
-export function Footer() {
+export default function Footer() {
   return (
-    <footer className="bg-gray-100 text-center py-6 mt-8 border-t">
-      <p className="text-gray-600">
-        © {new Date().getFullYear()} Rundevs. Todos los derechos reservados.
-      </p>
+    <footer className="py-8 text-center text-sm text-neutral-500 bg-neutral-100">
+      © {new Date().getFullYear()} RunDevs. Todos los derechos reservados.
     </footer>
-  );
+  )
 }
-  
