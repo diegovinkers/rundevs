@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "title": "Rundevs — Landing pages para profesionales",
+    "description": "Landing pages modernas, rápidas y fáciles de editar para psicólogos, médicos, abogados, coaches y contadores."
+  },
+  "hero": {
+    "headline": "Tu landing profesional lista en días, no semanas",
+    "subheadline": "Diseños modernos, responsive y optimizados para convertir clientes.",
+    "ctaPrimary": "Empezar ahora",
+    "ctaSecondary": "Ver planes"
+  },
+  "services": {
+    "title": "Planes simples y claros",
+    "subtitle": "Elige el plan que se ajusta a tus necesidades",
+    "plans": [
+      {
+        "name": "Básico",
+        "price": "USD 99",
+        "description": "Landing simple con tu información profesional y contacto.",
+        "features": [
+          "Entrega en 5 días",
+          "Diseño responsive",
+          "Formulario de contacto",
+          "SEO básico"
+        ],
+        "cta": "Contratar Básico"
+      },
+      {
+        "name": "Profesional",
+        "price": "USD 199",
+        "description": "Ideal para profesionales que quieren destacar online.",
+        "features": [
+          "Entrega en 7 días",
+          "Todo lo del plan Básico",
+          "Sección de servicios",
+          "Integración con WhatsApp"
+        ],
+        "cta": "Contratar Profesional"
+      },
+      {
+        "name": "Premium",
+        "price": "USD 299",
+        "description": "La mejor opción para quienes buscan máxima conversión.",
+        "features": [
+          "Entrega en 10 días",
+          "Todo lo del plan Profesional",
+          "Blog básico",
+          "Soporte prioritario"
+        ],
+        "cta": "Contratar Premium"
+      }
+    ]
+  },
+  "differentiators": {
+    "title": "¿Por qué elegirnos?",
+    "items": [
+      {
+        "title": "Entrega rápida",
+        "description": "Tu landing lista en pocos días, no semanas."
+      },
+      {
+        "title": "Diseño moderno",
+        "description": "Estilo profesional adaptado a tu marca."
+      },
+      {
+        "title": "Fácil de editar",
+        "description": "Textos centralizados en un archivo para cambios rápidos."
+      },
+      {
+        "title": "Soporte cercano",
+        "description": "Acompañamos tu proyecto incluso después de lanzado."
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Convierte más clientes desde hoy",
+    "subheadline": "Elige un plan y ten tu landing lista en días.",
+    "button": "Quiero mi landing"
+  },
+  "faq": {
+    "title": "Preguntas frecuentes",
+    "items": [
+      {
+        "question": "¿En cuánto tiempo recibo mi landing?",
+        "answer": "Dependiendo del plan, entre 5 y 10 días."
+      },
+      {
+        "question": "¿Puedo editar los textos yo mismo?",
+        "answer": "Sí, todos los textos están centralizados en un archivo fácil de editar."
+      },
+      {
+        "question": "¿La landing funciona en celular?",
+        "answer": "Sí, todos los diseños son 100% responsive."
+      },
+      {
+        "question": "¿Qué formas de pago aceptan?",
+        "answer": "Transferencia bancaria, PayPal o MercadoPago."
+      }
+    ]
+  },
+  "footer": {
+    "copyright": "© 2025 Rundevs. Todos los derechos reservados.",
+    "links": [
+      { "label": "Planes", "href": "#servicios" },
+      { "label": "FAQ", "href": "#faq" },
+      { "label": "Contacto", "href": "#contacto" }
+    ]
+  },
+  "contact": {
+    "whatsapp": "+5989899789",
+    "defaultWhatsappMessage": "Hola! Me interesa contratar una landing de Rundevs."
+  }
+}

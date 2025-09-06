@@ -1,3 +1,16 @@
+# Rundevs
+
+Landing principal de **Rundevs**, micro-agencia que vende landings profesionales rápidas y fáciles de editar.
+
+## 🚀 Tecnologías
+- Next.js + React
+- TailwindCSS
+- Textos centralizados en `content.json`
+
+## 📂 Estructura principal
+
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
